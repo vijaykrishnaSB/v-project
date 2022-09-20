@@ -1,29 +1,37 @@
 import React from "react";
-import "./App.css";
-import { BrowserRouter,Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-// import{Home} from "./components/Home";
-// import About from "./components/About";
-// import Ourimpact from "./components/Ourimpact";
-// import Joinus from "./components/Joinus";
-// import Contactus from ".components/Contactus/";
-
+import { Routes, Route } from "react-router-dom";
+// import Donate from "./Donate";
+// import Login from "./Login";
+// import Register from "./Register";
+import Reportform from "./Reportform";
+import Reportcase from "./Reportcase";
+import Reportdetails from "./Reportdetails";
+import Volunteer from "./Volunteer";
+import Volunteertable from "./Volunteertable";
+// import Donatation from "./Donatation";
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Navbar />
-          <Routes>              
-              {/* <Route path="/" components = {Home} exact={<Home />} />
-              <Route path="/about" components = {About} exact={<About />} />
-              <Route path="/ourimpact" components = {Ourimpact} exact={<Ourimpact />} />
-              <Route path="/joinus" components = {Joinus} exact={<Joinus />} />
-              <Route path="/contactus" components = {Contactus} exact={<Contactus />} /> */}
-          </Routes>
+    <div className="container">
+      <Routes>
+        {/* <Login /> */}
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Route path="/register" element={<Register />} /> */}
+        {/* <Route path="/donatation" element={<Donatation />} /> */}
+        {/* <Route path="/Donates/:id" element={<Donatation />} /> */}
+        {/* <Route path="/Donates/:id" element={<Donate />} /> */}
+        {/* <Route path="/Report/:id" element={<Reportdetails />} /> */}
+        {/* <Route path="/Reportcase" element={<Reportcase />} /> */}
+        <Route path="/Volunteertable" element={<Volunteertable />} />
 
-      </BrowserRouter>
-    </>
+      </Routes>
+      {/* <Donatation /> */}
+      {/* <Donate /> */}
+      {/* <Reportform /> */}
+      {/* <Reportcase /> */}
+      {/* <Volunteer /> */}
+      {/* <Volunteercase />/ */}
+      {/* https://vijay-trustproject.herokuapp.com/reports */}
+    </div>
   );
 }
-
 export default App;

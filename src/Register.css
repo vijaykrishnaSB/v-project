@@ -1,0 +1,50 @@
+.reg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 500px;
+    flex-direction: column;
+    margin-left: 70vh;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.reg-container input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+}
+
+.reg-button {
+    background-color: green;
+    height: 44px;
+    width: 300px;
+    color: white;
+
+}
+
+.reg-container1 {
+    background: linear-gradient(180deg,white,rgb(160, 192, 204)) ;
+    height: 115vh;
+    padding-top: 10vh;
+}
+
+.login-icons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:170px;
+    bottom:0;
+    height:100%;
+    /* left:900px; */
+    right:630px ;
+}

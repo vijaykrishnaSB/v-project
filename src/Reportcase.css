@@ -1,0 +1,22 @@
+
+#table-data {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+#table-data td,
+#table-data th {
+    padding: 10px;
+    background: rgb(223, 209, 128);
+}
+#table-data th {
+    background: black;
+    color: rgb(223, 209, 128);
+}
+#table-data th {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+#table-data{
+    border: 1px solid;
+}

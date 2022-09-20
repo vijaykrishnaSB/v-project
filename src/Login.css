@@ -1,0 +1,52 @@
+.Login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 550px;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-left: 70vh;
+    border-radius: 12px;
+
+
+}
+
+.Login-container input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+.log-button {
+    background-color: green;
+    height: 44px;
+    width: 300px;
+    color: white;
+
+}
+
+.login-container1 {
+    background: linear-gradient(180deg,white,rgb(160, 192, 204));
+    height: 100vh;
+    padding-top: 20vh;
+}
+.login-icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    /* left:900px; */
+    right:610px ;
+}
+
+
+.err-msg {
+    color: rgb(165, 6, 6);
+}

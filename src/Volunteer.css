@@ -1,0 +1,94 @@
+.allvolunteer{
+    display:flex;
+    height: 60vh;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    background: linear-gradient(180deg,white,rgb(160, 192, 204));
+}
+.volunteerform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    gap:20px;
+}
+
+.textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding: 25px;
+}
+.textarea textarea {
+    padding: 10px;
+    border: 2px solid ;
+    resize: none;
+    height:10vh;
+    width: 945px;
+    border-radius:5px ;
+}
+.input {
+    padding:10px;
+    height:45px;
+    width: 300px;
+    border-radius:8px ;
+}
+.inputform{
+    padding:10px;
+    width: 620px;
+    height:45px;
+    border-radius:8px ;
+
+}
+.inputform1{
+    padding:10px;
+    height:45px;
+    width: 300px;
+    border-radius:8px ;
+
+}
+
+.btn-volunteer {
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btn-volunteerform{
+    width: 180px;
+    height: 7vh;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 1px 3px black;
+}
+.btn-volunteerform:hover{
+    background:rgb(71, 187, 71);
+}
+
+
+
+
+#table-data {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+#table-data td,
+#table-data th {
+    padding: 10px;
+    background: rgb(223, 209, 128);
+}
+#table-data th {
+    background: black;
+    color: rgb(223, 209, 128);
+}
+#table-data th {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+#table-data{
+    border: 1px solid;
+}
