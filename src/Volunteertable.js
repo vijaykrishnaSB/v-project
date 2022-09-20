@@ -5,7 +5,7 @@ import "./Volunteer.css";
 const Volunteercase = () => {
   const [tabdata, setTabdata] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:4000/volunteer/posting",{
+    fetch("http://localhost:4000/volunteer",{
       method: "GET",
       body: JSON.stringify(),
       headers: { "Content-Type": "application/json" },
