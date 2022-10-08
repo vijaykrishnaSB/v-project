@@ -2,11 +2,14 @@ import React from "react";
 import { useFormik } from "formik";
 import "./Volunteer.css";
 import { Volunteerschema } from "./Volunteerschema";
+import { useParams } from "react-router-dom";
+
 
 const Volunteerfrom = () => {
+  const params = useParams();
   const getuser = (values) => {
     console.log(values);
-    fetch("http://localhost:4000/volunteer/posting", {
+    fetch('http://localhost:4000/volunteer/posting', {
       method: "POST",
       body: JSON.stringify(values),
       headers: { "Content-Type": "application/json" },
